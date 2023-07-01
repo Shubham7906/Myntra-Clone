@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!--=========SIDEBAR==========-->
+    <div class="res">
+    <input type="checkbox" name="check" id="check">
+    <div class="contain">
+    <label for="check">
+        <span id="times">&#10006;</span>
+        <span id="bars">&#9776;</span>
+    </label>
+    <!--<div class="head">menu</div>-->
+    <ol>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Kids</a></li>
+        <li><a href="#">Home & Living</a></li>
+        <li><a href="#">Beauty</a></li>
+    </ol>
+</div></div>
+<!--================NAVBAR==========-->
+    <div class="nav">
+      <div class="logo">
+        <a href="#"><img src="logo-myntra-41466.png" alt="logo"></a>
+      </div>
+      <div class="first">
+        <a href="#"><li>MEN</li>
+        </a>
+        <a href="#"><li>WOMEN</li>
+        </a>
+        <a href="#"><li>KIDS</li>
+        </a>
+        <a href="#"><li>HOME & LIVING</li>
+        </a>
+        <a href="#"><li>BEAUTY</li>
+        </a>
+      </div>
+      <div class="middle">
+        <input type="search" name="search" id="search" placeholder="Search for product"><button>Search</button>
+      </div>
+      <div class="last">
+        <a href="#"><img src="profile.png" alt=""></a>
+        <a href="#"><img src="icons8-heart-50.png" alt=""></a>
+        <a href="#"><img src="shopping-bag.png" alt=""></a>
+      </div>
+    </div>
+  </header>
+  <!--===================ModelCard==========-->
+  <div id="modelBox">
+    <img class="bg" src="/images/bg.jpg" alt="">
+    <div class="offer-text">
+        <h2>Get Up To 50% Off</h2>
+        <small>on all products</small>
+        <p>Huge Range Of Products On Great Deals & Discounts. Get The Best Of Fashion Only On Myntra.</p>
+    </div>
+    <img class="cross" src="/images/pngwing.com.png" alt="" onclick="closeModel()">
+</div>
+
+  <!--================SECTION -1================-->
+  <section id="sec-1">
+    <div class="carousel-container">
+  <div class="carousel">
+    <img src="img-1.jpg" alt="Image 1">
+    <img src="img-3.jpg" alt="Image 2">
+    <img src="img-2.jpg" alt="Image 3">
+  </div>
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+</section>
+<section id="sec-2">
+  <div class="head">
+  <h2>CRAZY DEALS</h2>
+  <a href="#" class="btn">View All &#10095;</a></div>
+  <div class="container-1">
+    <div class="items">
+      <a href="#"><img src="/images/pexels-ray-piedra-1478442.jpg" alt=""></a>
+      <div class="txt"><p>Trendy Sports Shoes</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/irene-kredenets-DDqxX0-7vKE-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>Trendy Summer Sandals</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/joshua-rawson-harris-dN67hPE5KWY-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>Trendy Cool Hoddies</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/khadeeja-yasser-msFZE7d9KB4-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>Bedsheets Collection</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/mike-von-aKXCtDDgtRw-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>Latest Comfy Collections</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/mohammad-metri-E-0ON3VGrBc-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>Pump Heels</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/neauthy-skincare-8ZKwW-2SR28-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>Cosmetic</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/pexels-ivan-ananiev-16495779.jpg" alt=""></a>
+      <div class="txt"><p>Leather Jackets</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/pexels-mart-production-9558577.jpg" alt=""></a>
+      <div class="txt"><p>New Trendy Tees</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items">
+      <a href="#"><img src="/images/pexels-monstera-5384423.jpg" alt=""></a>
+      <div class="txt"><p>Oversized T-Shirts</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+  </div>
+  <div class="container-2">
+    <div class="items-2">
+      <a href="#"><img src="/images/brown-leather-shoes.jpg" alt=""></a>
+      <div class="txt"><p>New Latest Shoes</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/pexels-teddy-yang-16485635.jpg" alt=""></a>
+      <div class="txt"><p>Bagpacks Collection</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/pexels-vinc-10005247.jpg" alt=""></a>
+      <div class="txt"><p>Trendy Classic Look</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/trinh-minh-th-s7TceQs70xs-unsplash.jpg" alt=""></a>
+      <div class="txt"><p>New Look Flats</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/wallpaperflare.com_wallpaper(3).jpg" alt=""></a>
+      <div class="txt"><p>Regular T-Shirts</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/jackets.jpg" alt=""></a>
+      <div class="txt"><p>Trendy Jackets</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/slippers.webp" alt=""></a>
+      <div class="txt"><p>Slippers</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/sofa.jpg" alt=""></a>
+      <div class="txt"><p>Sofa Collection</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+    <div class="items-2">
+      <a href="#"><img src="/images/formal.jpg" alt=""></a>
+      <div class="txt"><p>Trendy Formal Shoes</p>
+        <h4>MIN. <span>50% </span>OFF</h4></div>
+    </div>
+  </div>
+  <div class="box-2">
+    <h2>TOP BRANDS AT BEST</h2>
+    <div class="container-1">
+      <div class="items">
+        <a href="#"><img src="/images/CROCS.jpg" alt=""></a>
+      <div class="txt-2"><p>CROCS</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="#"><img src="/images/NIKE.jpg" alt=""></a>
+      <div class="txt-2"><p>NIKE</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="#"><img src="/images/PUMA.jpg" alt=""></a>
+      <div class="txt-2"><p>PUMA</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="#"><img src="/images/VISH.jpg" alt=""></a>
+      <div class="txt-2"><p>VISHUDH</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="#"><img src="/images/LIBAS.jpg" alt=""></a>
+      <div class="txt-2"><p>LIBAS</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="#"><img src="/images/TOMMY.jpg" alt=""></a>
+      <div class="txt-2"><p>TOMMY HILFIGER</p>
+        <h4>Up To. <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items">
+        <a href="#"><img src="/images/HRX.png" alt=""></a>
+      <div class="txt-2"><p>HRX</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="items-2">
+        <a href="#"><img src="/images/DENIM.jpg" alt=""></a>
+      <div class="txt-2"><p>ONLY</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="#"><img src="/images/WRONG.jpg" alt=""></a>
+      <div class="txt-2"><p>WROGN</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="#"><img src="/images/JEANS.webp" alt=""></a>
+      <div class="txt-2"><p>NORTH RIVER</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="#"><img src="/images/POLO.jpg" alt=""></a>
+      <div class="txt-2"><p>US POLO</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="#"><img src="/images/BIBA.jpg" alt=""></a>
+      <div class="txt-2"><p>BIBA</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="#"><img src="/images/ROAD.jpg" alt=""></a>
+      <div class="txt-2"><p>ROADSTER</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+      <div class="items-2">
+        <a href="#"><img src="/images/VERO.jpg" alt=""></a>
+      <div class="txt-2"><p>VERO MODA</p>
+        <h4>Up To <span>50% </span>Off</h4></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec-3">
+  <h2>CATEGORIES TO BAG</h2>
+  <div class="container-3">
+    <div class="box-a">
+      <div class="card">
+        <div class="item-a">
+          <a href="#"><img src="/images/beauty.jpg" alt=""></a>
+        </div>
+        <h4>Beauty</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="#"><img src="/images/tshirt.jpg" alt=""></a>
+        </div>
+        <h4>T-Shirts</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="#"><img src="/images/jeans.jpg" alt=""></a>
+        </div>
+        <h4>Jeans</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="#"><img src="/images/jew.jpg" alt=""></a>
+        </div>
+        <h4>Jewellery</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="#"><img src="/images/teen.jpg" alt=""></a>
+        </div>
+        <h4>Teen Wear</h4>
+      </div>
+      <div class="card">
+        <div class="item-a">
+          <a href="#"><img src="/images/trousers.jpg" alt=""></a>
+        </div>
+        <h4>Trousers</h4>
+      </div>
+    </div>
+    <div class="box-b">
+      <div class="card-b">
+        <div class="item-b">
+          <a href="#"><img src="/images/bag.jpg" alt=""></a>
+        </div>
+        <h4>Hand Bag</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="#"><img src="/images/saree.jpg" alt=""></a>
+        </div>
+        <h4>New Saree</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="#"><img src="/images/infant.jpg" alt=""></a></div>
+        <h4>Infant Essentials</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="#"><img src="/images/shoes.jpg" alt=""></a>
+        </div>
+        <h4>Sports Shoes</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="#"><img src="/images/kurta.jpg" alt=""></a>
+        </div>
+        <h4>Kurta</h4>
+      </div>
+      <div class="card-b">
+        <div class="item-b">
+          <a href="#"><img src="/images/shirts.jpg" alt=""></a>
+        </div>
+        <h4>Shirts</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec-4">
+  <div class="container-4">
+    <div class="sec-a">
+      <h3>ONLINE SHOPPING</h3>
+      <p>Men</p>
+      <p>Women</p>
+      <p>Kids</p>
+      <p>Home & Living</p>
+      <p>Beauty</p>
+      <p>Gift Cards</p>
+    </div>
+    <div class="sec-b">
+      <h3>CUSTOMER POLICIES</h3>
+      <p>Contact Us</p>
+      <p>FAQ</p>
+      <p>T&C</p>
+      <p>Terms Of Use</p>
+      <p>Track Orders</p>
+      <p>Shipping</p>
+      <p>Returns</p>
+    </div>
+    <div class="sec-c">
+      <h3>USEFUL LINKS</h3>
+      <p>Blog</p>
+      <p>Careers</p>
+      <p>Site Map</p>
+      <p>Corporate Information</p>
+      <p>Whitehat</p>
+    </div>
+  </div>
+  <div class="container-5">
+    <h3>POPULAR SEARCHES</h3>
+    <a href="#">
+      <p>
+        Makeup | Dresses For Girls | T-Shirts | Headphones | Babydolls | Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes | Reebok Shoes | Puma Shoes |
+        </p>
+        <p>
+        Boxers | Wallets | Tops | Earrings | Fastrack Watches | Kurtis | Nike Smart Watches | Titan Watches | Designer Blouse | Gowns | Rings | Cricket Shoes | Forever 21 | Eye |
+        </p>
+        <p>
+        Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show | Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles | Bras | Suit | Chinos | Shoes |
+      </p>
+      <p>
+        Adidas Shoes | Woodland Shoes | Jewellery | Designers Sarees
+      </p>
+    </a>
+  </div>
+  <div class="txt-3">
+  <p>In case of any concern, <a href="#">Contact Us</a></p>
+  <p class="end">&copy; 2023 www.myntra.com. All rights reserved.</p>
+  </div>
+</section>
+<script src="script.js">
+</script>
+</body>
+</html>
