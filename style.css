@@ -480,3 +480,26 @@ input{
   display: none;
 }
 }
+@media only screen and (max-width: 580px){
+  .txt{
+    font-size: 1.5vw;
+  }
+  .txt-2{
+    font-size: 1.45vw;
+  }
+  .container-4 h3{
+    font-size: 2.3vw;
+  }
+  .container-4 p{
+    font-size: 2vw;
+  }
+  .container-5 h3{
+    font-size: 2.3vw;
+  }
+  .container-5 a p{
+    font-size: 2vw;
+  }
+  .txt-3 p{
+    font-size: 2vw;
+  }
+}
