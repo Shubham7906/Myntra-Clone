@@ -487,10 +487,22 @@ input{
   .txt-2{
     font-size: 1.45vw;
   }
-  .container-4 h3{
+  .sec-a h3{
     font-size: 2.3vw;
   }
-  .container-4 p{
+  .sec-a p{
+    font-size: 2vw;
+  }
+  .sec-b h3{
+    font-size: 2.3vw;
+  }
+  .sec-b p{
+    font-size: 2vw;
+  }
+  .sec-c h3{
+    font-size: 2.3vw;
+  }
+  .sec-c p{
     font-size: 2vw;
   }
   .container-5 h3{
@@ -499,7 +511,7 @@ input{
   .container-5 a p{
     font-size: 2vw;
   }
-  .txt-3 p{
+  .txt-3{
     font-size: 2vw;
   }
 }
