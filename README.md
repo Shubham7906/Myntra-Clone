@@ -9,4 +9,7 @@ I Built Myntra Clone from scratch using html, css and javascript. Features inclu
 
 ## Phone View
 
+![mp1](https://github.com/Shubham7906/Myntra-Clone/assets/76210714/2481374b-1d7c-4257-a50b-4a8da1c64e10)
+![mp2](https://github.com/Shubham7906/Myntra-Clone/assets/76210714/ec11ad6b-efa9-4235-990e-6c1930403244)
+![mp3](https://github.com/Shubham7906/Myntra-Clone/assets/76210714/bdad2a50-cfdb-4486-aa2d-b9419ad83724)
 
